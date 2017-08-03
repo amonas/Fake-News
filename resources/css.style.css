@@ -42,14 +42,17 @@ nav span a {
     color: black;
 }
 
-div{
-  border: 1px solid black;
-}
-
 p {
   font-family: Georgia;
  font-size: 17px;
  color: black;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
 }
 
 .container {
@@ -63,13 +66,13 @@ p {
 margin-right: 32px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .column.large {
   min-width: 630px;
   width: 630px;
-
+justify-content: space-between;
 }
 
 .column.medium {
@@ -80,7 +83,8 @@ margin-right: 32px;
 .column.small {
   min-width: 240px;
   width: 240px;
-
+  flex-direction: column;
+  margin-right: 0;
 }
 
 .image {
@@ -112,3 +116,25 @@ margin-right: 32px;
   background-image: url("../resources/images/img-story-1.png");
   background-repeat: no-repeat;
 }
+
+.orca {
+  width: 300px;
+}
+
+.breakfast {
+  width: 300px;
+}
+
+.bites {
+  display: flex;
+flex-direction: column;
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+
+}
+ .bites span {
+   border-bottom: 1px solid black;
+       padding: 12px 20px;
+ }
