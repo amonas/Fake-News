@@ -39,3 +39,37 @@ nav span {
 nav span a {
     color: black;
 }
+
+div{
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+    padding-top: 100px;
+    overflow: auto;
+
+}
+
+.column {
+margin-right: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column.large {
+  min-width: 630px;
+  width: 630px;
+
+}
+
+.column.medium {
+  min-width: 300px;
+  width: 300px;
+}
+
+.column.small {
+  min-width: 240px;
+  width: 240px;
+  align-items: flex-start;
+}
